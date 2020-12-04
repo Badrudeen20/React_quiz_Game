@@ -1,0 +1,151 @@
+*{
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+}
+ body{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+       background-color:#F7D54B;
+ }
+ .header{
+        position: relative;
+ }
+  .wrapper{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+  }
+   .question{
+         background: #F7F9F9;
+         padding-top:15px;
+         text-align: center;
+         width: 340px;
+         border-radius: 4px;
+         box-shadow: 0 5px 5px rgba(93, 109, 126,0.5);
+   }
+   #label{
+        position: absolute;
+         background-color:#F7F9F9;
+       width: 50px;
+       height: 50px;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        left:50%;
+        top:-20%;
+        transform: translate(-50%,-50%);
+   }
+   .question p{
+         font-weight: bold;
+         font-size: 15px;
+         padding-bottom: 5px;
+        
+   }
+   .option{
+        display: flex;
+        flex-direction: column;
+     margin-top: 5px;   
+     text-align: center;
+     width: 280px;
+     border-radius: 4px;
+     text-align: left;
+   }
+
+   .option button{
+     position: relative;
+     margin-top: 5px;
+     padding: 8px;
+     border-radius: 4px;
+     text-align: left;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 15px;
+     box-shadow: 0 5px 5px rgba(93, 109, 126,0.5);
+     border:none;
+     outline: none;
+     padding-left: 40px;
+   }
+
+   .option button span{
+        background: #AF7AC5;
+          position: absolute;;
+          left:0px;
+          top:0px;
+          text-align: center;
+          height: 100%;
+          width: 10%;
+          border-radius: 3px 0 0 3px;
+          color: #fff;
+          padding-top: 7px;
+    }
+ .selected{
+        background:#82E0AA;
+ }
+ .ion-arrow-right-c{
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        text-align: center;
+        position: relative;
+        left:120px;
+        top:10px;
+        cursor: pointer;
+ }
+ .ion-ios-pause{
+      font-weight: bold;
+      font-size: 20px;
+      background-color: #fff;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      text-align: center;
+      position: relative;
+      left:120px;
+      top:10px;
+      cursor: pointer;
+ }
+ .result{
+        width: 300px;
+        height: 300px;
+        background-color:#DE3163;
+        opacity: 0.7;
+        padding: 2px;
+ }
+ .result .nav{
+        width: 100%;
+        padding: 10px;
+        background-color: #F7D54B;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(93, 109, 126,0.5);
+        display: flex;
+        justify-content: center;
+       
+ }
+ .result .nav span{
+       color:#fff;
+        font-weight: bold;
+        font-size: 15px;
+        
+ }
+ .result .detail{
+        margin:20px;
+ }
+ 
+ .result .detail p{
+      font-weight: bold;
+      font-size: 15px;
+      color:#fff;
+ }
+ 
+ 
